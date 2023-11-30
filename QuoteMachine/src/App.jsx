@@ -1,4 +1,5 @@
 import { useState } from "react";
+import MainCard from "./MainCard/MainCard";
 import "./App.css";
 
 function App() {
@@ -13,8 +14,11 @@ function App() {
   }
 
   return (
-    <div style={{ backgroundColor: colour, height: "100vh", width: "100vw" }}>
-      <button onClick={handleColourChange}>Click me!</button>
+    <div
+      style={{ backgroundColor: colour, height: "100vh", width: "100vw" }}
+      className="container"
+    >
+      <MainCard handleColourChange={handleColourChange} />
     </div>
   );
 }
