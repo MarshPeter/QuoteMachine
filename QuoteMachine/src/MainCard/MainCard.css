@@ -1,5 +1,16 @@
 .main_card {
-  min-width: 400px;
-  min-height: 300px;
+  min-width: 20%;
+  max-width: 32%;
+  min-height: 200px;
   background-color: white;
+  padding: 0.5rem 2.5rem;
+  border-radius: 25px 25px;
+  text-align: center;
+}
+
+.btn {
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 0.6rem;
+  background-color: green;
 }
